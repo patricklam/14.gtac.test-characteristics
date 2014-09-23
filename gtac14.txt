@@ -1,0 +1,24 @@
+I've been doing some research and teaching on testing; I'd like to share relevant results with this audience and I'd like to get a better feel for what's going on in industry. I believe that testing in particular is an area where academic testing would benefit from more influence from what's going on in practice.
+
+---
+beyond coverage: what lurks in your test suites?
+
+Coverage is a standard metric used to evaluate test suites. But other properties matter too!
+
+We are investigating 10 open-source test suites. How important is
+cloning (cut-and-paste programming) in test suites? How complex are
+test cases? Do they use a lot of mock objects?  Do the comments make
+sense?
+
+
+dynamic characteristics: coverage, runtime
+static characteristics: clones, control-flow complexity, mock usage, other resource usage (files, network, etc), nondeterminism, method names, nonsense comments
+
+---
+Here are two presentations that I've done, one from last year (a colloquium talk at Rochester about some transactional memory research), and one from 2011 (to our Regional Council, supporting light rail):
+
+http://patricklam.ca/presentations/11.rc.lrt.pdf
+http://patricklam.ca/presentations/13.rochester.rrtm
+
+I don't have any recent video of presentations. But my most recent course critiques (for Programming for Performance: http://patricklam.ca/p4p) included a score of 97/100 for "Rate your professor's oral presentation in terms of audibility, articulation, and your ability to understand his/her English."
+

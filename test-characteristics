@@ -1,0 +1,19 @@
+Why do we care about test suite characteristics?
+A: get better test suites
+ - more maintainable
+ - more usable (e.g. faster runtime)
+ - fewer unjustified failures
+
+Obvious characteristics:
+ - size
+ - coverage (stmt, class hierarchy)
+ - running time
+
+Also:
+ - complexity
+ - CLONES
+ - determinism
+
+ - Resource usage (memory, file/network I/O)
+ - Optimization (parallelization of tests)
+ - Refactorability (when I was reviewing some results, I realized that one of the reasons that we have clones in the first place is that some of these clones cannot be easily refactored)
