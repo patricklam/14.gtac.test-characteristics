@@ -1,0 +1,786 @@
+Buildfile: /home/plam/hacking/zfang-projects/apache-commons-collections/build.xml
+
+init:
+     [echo] -------- commons-collections 3.3-SNAPSHOT --------
+
+prepare:
+
+compile:
+    [javac] /home/plam/hacking/zfang-projects/apache-commons-collections/build.xml:129: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+    [javac] /home/plam/hacking/zfang-projects/apache-commons-collections/build.xml:273: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+-test-all:
+    [junit] Running org.apache.commons.collections.TestArrayStack
+    [junit] Testsuite: org.apache.commons.collections.TestArrayStack
+    [junit] Tests run: 154, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.166 sec
+    [junit] Tests run: 154, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.166 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestBagUtils
+    [junit] Testsuite: org.apache.commons.collections.TestBagUtils
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestBeanMap
+    [junit] Testsuite: org.apache.commons.collections.TestBeanMap
+    [junit] Tests run: 116, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 sec
+    [junit] Tests run: 116, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestBinaryHeap
+    [junit] Testsuite: org.apache.commons.collections.TestBinaryHeap
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestBoundedFifoBuffer
+    [junit] Testsuite: org.apache.commons.collections.TestBoundedFifoBuffer
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestBoundedFifoBuffer2
+    [junit] Testsuite: org.apache.commons.collections.TestBoundedFifoBuffer2
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestBufferUtils
+    [junit] Testsuite: org.apache.commons.collections.TestBufferUtils
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestClosureUtils
+    [junit] Testsuite: org.apache.commons.collections.TestClosureUtils
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestCollectionUtils
+    [junit] Testsuite: org.apache.commons.collections.TestCollectionUtils
+    [junit] Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+    [junit] Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestCursorableLinkedList
+    [junit] Testsuite: org.apache.commons.collections.TestCursorableLinkedList
+    [junit] Tests run: 172, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.239 sec
+    [junit] Tests run: 172, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.239 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestDoubleOrderedMap
+    [junit] Testsuite: org.apache.commons.collections.TestDoubleOrderedMap
+    [junit] Tests run: 142, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.386 sec
+    [junit] Tests run: 142, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.386 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestEnumerationUtils
+    [junit] Testsuite: org.apache.commons.collections.TestEnumerationUtils
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestExtendedProperties
+    [junit] Testsuite: org.apache.commons.collections.TestExtendedProperties
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestFactoryUtils
+    [junit] Testsuite: org.apache.commons.collections.TestFactoryUtils
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestFastArrayList
+    [junit] Testsuite: org.apache.commons.collections.TestFastArrayList
+    [junit] Tests run: 158, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 sec
+    [junit] Tests run: 158, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestFastArrayList1
+    [junit] Testsuite: org.apache.commons.collections.TestFastArrayList1
+    [junit] Tests run: 160, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec
+    [junit] Tests run: 160, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestFastHashMap
+    [junit] Testsuite: org.apache.commons.collections.TestFastHashMap
+    [junit] Tests run: 122, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 sec
+    [junit] Tests run: 122, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestFastHashMap1
+    [junit] Testsuite: org.apache.commons.collections.TestFastHashMap1
+    [junit] Tests run: 122, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.244 sec
+    [junit] Tests run: 122, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.244 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestFastTreeMap
+    [junit] Testsuite: org.apache.commons.collections.TestFastTreeMap
+    [junit] Tests run: 124, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.19 sec
+    [junit] Tests run: 124, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.19 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestFastTreeMap1
+    [junit] Testsuite: org.apache.commons.collections.TestFastTreeMap1
+    [junit] Tests run: 124, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.214 sec
+    [junit] Tests run: 124, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.214 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestHashBag
+    [junit] Testsuite: org.apache.commons.collections.TestHashBag
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestIteratorUtils
+    [junit] Testsuite: org.apache.commons.collections.TestIteratorUtils
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestLRUMap
+    [junit] Testsuite: org.apache.commons.collections.TestLRUMap
+    [junit] Tests run: 133, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 sec
+    [junit] Tests run: 133, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestListUtils
+    [junit] Testsuite: org.apache.commons.collections.TestListUtils
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestMapUtils
+    [junit] Testsuite: org.apache.commons.collections.TestMapUtils
+    [junit] Tests run: 155, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec
+    [junit] Tests run: 155, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestMultiHashMap
+    [junit] Testsuite: org.apache.commons.collections.TestMultiHashMap
+    [junit] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+    [junit] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestPredicateUtils
+    [junit] Testsuite: org.apache.commons.collections.TestPredicateUtils
+    [junit] Tests run: 65, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+    [junit] Tests run: 65, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestReferenceMap
+    [junit] Testsuite: org.apache.commons.collections.TestReferenceMap
+    [junit] Tests run: 124, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 sec
+    [junit] Tests run: 124, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestSequencedHashMap
+    [junit] Testsuite: org.apache.commons.collections.TestSequencedHashMap
+    [junit] Tests run: 128, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 sec
+    [junit] Tests run: 128, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestSetUtils
+    [junit] Testsuite: org.apache.commons.collections.TestSetUtils
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestStaticBucketMap
+    [junit] Testsuite: org.apache.commons.collections.TestStaticBucketMap
+    [junit] Tests run: 122, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 sec
+    [junit] Tests run: 122, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestTransformerUtils
+    [junit] Testsuite: org.apache.commons.collections.TestTransformerUtils
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestTreeBag
+    [junit] Testsuite: org.apache.commons.collections.TestTreeBag
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.TestUnboundedFifoBuffer
+    [junit] Testsuite: org.apache.commons.collections.TestUnboundedFifoBuffer
+    [junit] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+    [junit] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bag.TestHashBag
+    [junit] Testsuite: org.apache.commons.collections.bag.TestHashBag
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bag.TestPredicatedBag
+    [junit] Testsuite: org.apache.commons.collections.bag.TestPredicatedBag
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bag.TestPredicatedSortedBag
+    [junit] Testsuite: org.apache.commons.collections.bag.TestPredicatedSortedBag
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bag.TestTransformedBag
+    [junit] Testsuite: org.apache.commons.collections.bag.TestTransformedBag
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bag.TestTransformedSortedBag
+    [junit] Testsuite: org.apache.commons.collections.bag.TestTransformedSortedBag
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bag.TestTreeBag
+    [junit] Testsuite: org.apache.commons.collections.bag.TestTreeBag
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bag.TestTypedBag
+    [junit] Testsuite: org.apache.commons.collections.bag.TestTypedBag
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bag.TestTypedSortedBag
+    [junit] Testsuite: org.apache.commons.collections.bag.TestTypedSortedBag
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bidimap.TestDualHashBidiMap
+    [junit] Testsuite: org.apache.commons.collections.bidimap.TestDualHashBidiMap
+    [junit] Tests run: 302, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 sec
+    [junit] Tests run: 302, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bidimap.TestDualTreeBidiMap
+    [junit] Testsuite: org.apache.commons.collections.bidimap.TestDualTreeBidiMap
+    [junit] Tests run: 713, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.421 sec
+    [junit] Tests run: 713, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.421 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bidimap.TestDualTreeBidiMap2
+    [junit] Testsuite: org.apache.commons.collections.bidimap.TestDualTreeBidiMap2
+    [junit] Tests run: 716, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.401 sec
+    [junit] Tests run: 716, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.401 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bidimap.TestTreeBidiMap
+    [junit] Testsuite: org.apache.commons.collections.bidimap.TestTreeBidiMap
+    [junit] Tests run: 323, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.282 sec
+    [junit] Tests run: 323, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.282 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bidimap.TestUnmodifiableBidiMap
+    [junit] Testsuite: org.apache.commons.collections.bidimap.TestUnmodifiableBidiMap
+    [junit] Tests run: 302, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.324 sec
+    [junit] Tests run: 302, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.324 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bidimap.TestUnmodifiableOrderedBidiMap
+    [junit] Testsuite: org.apache.commons.collections.bidimap.TestUnmodifiableOrderedBidiMap
+    [junit] Tests run: 323, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.292 sec
+    [junit] Tests run: 323, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.292 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.bidimap.TestUnmodifiableSortedBidiMap
+    [junit] Testsuite: org.apache.commons.collections.bidimap.TestUnmodifiableSortedBidiMap
+    [junit] Tests run: 713, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.35 sec
+    [junit] Tests run: 713, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.35 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestBlockingBuffer
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestBlockingBuffer
+    [junit] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.792 sec
+    [junit] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.792 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestBoundedBuffer
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestBoundedBuffer
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.91 sec
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.91 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestBoundedFifoBuffer
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestBoundedFifoBuffer
+    [junit] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+    [junit] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestBoundedFifoBuffer2
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestBoundedFifoBuffer2
+    [junit] Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+    [junit] Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestCircularFifoBuffer
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestCircularFifoBuffer
+    [junit] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+    [junit] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestPredicatedBuffer
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestPredicatedBuffer
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestPriorityBuffer
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestPriorityBuffer
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 sec
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestSynchronizedBuffer
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestSynchronizedBuffer
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestTransformedBuffer
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestTransformedBuffer
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestUnboundedFifoBuffer
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestUnboundedFifoBuffer
+    [junit] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+    [junit] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.buffer.TestUnmodifiableBuffer
+    [junit] Testsuite: org.apache.commons.collections.buffer.TestUnmodifiableBuffer
+    [junit] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
+    [junit] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.collection.TestCompositeCollection
+    [junit] Testsuite: org.apache.commons.collections.collection.TestCompositeCollection
+    [junit] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.collection.TestPredicatedCollection
+    [junit] Testsuite: org.apache.commons.collections.collection.TestPredicatedCollection
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.collection.TestSynchronizedCollection
+    [junit] Testsuite: org.apache.commons.collections.collection.TestSynchronizedCollection
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.collection.TestTransformedCollection
+    [junit] Testsuite: org.apache.commons.collections.collection.TestTransformedCollection
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.collection.TestUnmodifiableCollection
+    [junit] Testsuite: org.apache.commons.collections.collection.TestUnmodifiableCollection
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.comparators.TestBooleanComparator
+    [junit] Testsuite: org.apache.commons.collections.comparators.TestBooleanComparator
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.comparators.TestComparableComparator
+    [junit] Testsuite: org.apache.commons.collections.comparators.TestComparableComparator
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.comparators.TestComparatorChain
+    [junit] Testsuite: org.apache.commons.collections.comparators.TestComparatorChain
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.comparators.TestFixedOrderComparator
+    [junit] Testsuite: org.apache.commons.collections.comparators.TestFixedOrderComparator
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.comparators.TestNullComparator
+    [junit] Testsuite: org.apache.commons.collections.comparators.TestNullComparator
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.comparators.TestReverseComparator
+    [junit] Testsuite: org.apache.commons.collections.comparators.TestReverseComparator
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestArrayIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestArrayIterator
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestArrayIterator2
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestArrayIterator2
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestArrayListIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestArrayListIterator
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestArrayListIterator2
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestArrayListIterator2
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestCollatingIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestCollatingIterator
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestFilterIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestFilterIterator
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestFilterListIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestFilterListIterator
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestIteratorChain
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestIteratorChain
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestListIteratorWrapper
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestListIteratorWrapper
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestLoopingIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestLoopingIterator
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestLoopingListIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestLoopingListIterator
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestObjectArrayIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestObjectArrayIterator
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestObjectArrayListIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestObjectArrayListIterator
+    [junit] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestObjectArrayListIterator2
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestObjectArrayListIterator2
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestObjectGraphIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestObjectGraphIterator
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestReverseListIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestReverseListIterator
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestSingletonIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestSingletonIterator
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestSingletonIterator2
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestSingletonIterator2
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestSingletonListIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestSingletonListIterator
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestUniqueFilterIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestUniqueFilterIterator
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestUnmodifiableIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestUnmodifiableIterator
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestUnmodifiableListIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestUnmodifiableListIterator
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestUnmodifiableMapIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestUnmodifiableMapIterator
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.iterators.TestUnmodifiableOrderedMapIterator
+    [junit] Testsuite: org.apache.commons.collections.iterators.TestUnmodifiableOrderedMapIterator
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.keyvalue.TestDefaultKeyValue
+    [junit] Testsuite: org.apache.commons.collections.keyvalue.TestDefaultKeyValue
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.keyvalue.TestDefaultMapEntry
+    [junit] Testsuite: org.apache.commons.collections.keyvalue.TestDefaultMapEntry
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.keyvalue.TestMultiKey
+    [junit] Testsuite: org.apache.commons.collections.keyvalue.TestMultiKey
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.keyvalue.TestTiedMapEntry
+    [junit] Testsuite: org.apache.commons.collections.keyvalue.TestTiedMapEntry
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.keyvalue.TestUnmodifiableMapEntry
+    [junit] Testsuite: org.apache.commons.collections.keyvalue.TestUnmodifiableMapEntry
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestCursorableLinkedList
+    [junit] Testsuite: org.apache.commons.collections.list.TestCursorableLinkedList
+    [junit] Tests run: 196, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.262 sec
+    [junit] Tests run: 196, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.262 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestFixedSizeList
+    [junit] Testsuite: org.apache.commons.collections.list.TestFixedSizeList
+    [junit] Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 sec
+    [junit] Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestGrowthList
+    [junit] Testsuite: org.apache.commons.collections.list.TestGrowthList
+    [junit] Tests run: 61, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+    [junit] Tests run: 61, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestNodeCachingLinkedList
+    [junit] Testsuite: org.apache.commons.collections.list.TestNodeCachingLinkedList
+    [junit] Tests run: 156, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec
+    [junit] Tests run: 156, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestPredicatedList
+    [junit] Testsuite: org.apache.commons.collections.list.TestPredicatedList
+    [junit] Tests run: 61, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec
+    [junit] Tests run: 61, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestSetUniqueList
+    [junit] Testsuite: org.apache.commons.collections.list.TestSetUniqueList
+    [junit] Tests run: 68, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+    [junit] Tests run: 68, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestSynchronizedList
+    [junit] Testsuite: org.apache.commons.collections.list.TestSynchronizedList
+    [junit] Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec
+    [junit] Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestTransformedList
+    [junit] Testsuite: org.apache.commons.collections.list.TestTransformedList
+    [junit] Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.17 sec
+    [junit] Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.17 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestTreeList
+    [junit] Testsuite: org.apache.commons.collections.list.TestTreeList
+    [junit] Tests run: 155, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec
+    [junit] Tests run: 155, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestTypedList
+    [junit] Testsuite: org.apache.commons.collections.list.TestTypedList
+    [junit] Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+    [junit] Tests run: 57, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.list.TestUnmodifiableList
+    [junit] Testsuite: org.apache.commons.collections.list.TestUnmodifiableList
+    [junit] Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+    [junit] Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestCaseInsensitiveMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestCaseInsensitiveMap
+    [junit] Tests run: 146, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec
+    [junit] Tests run: 146, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestCompositeMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestCompositeMap
+    [junit] Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+    [junit] Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestDefaultedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestDefaultedMap
+    [junit] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+    [junit] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestFixedSizeMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestFixedSizeMap
+    [junit] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+    [junit] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestFixedSizeSortedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestFixedSizeSortedMap
+    [junit] Tests run: 503, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.229 sec
+    [junit] Tests run: 503, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.229 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestFlat3Map
+    [junit] Testsuite: org.apache.commons.collections.map.TestFlat3Map
+    [junit] Tests run: 156, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 sec
+    [junit] Tests run: 156, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestHashedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestHashedMap
+    [junit] Tests run: 144, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 sec
+    [junit] Tests run: 144, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestIdentityMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestIdentityMap
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestLRUMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestLRUMap
+    [junit] Tests run: 174, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.154 sec
+    [junit] Tests run: 174, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.154 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestLazyMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestLazyMap
+    [junit] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+    [junit] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestLazySortedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestLazySortedMap
+    [junit] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+    [junit] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestLinkedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestLinkedMap
+    [junit] Tests run: 321, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 sec
+    [junit] Tests run: 321, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestListOrderedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestListOrderedMap
+    [junit] Tests run: 474, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 sec
+    [junit] Tests run: 474, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestListOrderedMap2
+    [junit] Testsuite: org.apache.commons.collections.map.TestListOrderedMap2
+    [junit] Tests run: 318, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 sec
+    [junit] Tests run: 318, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestMultiKeyMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestMultiKeyMap
+    [junit] Tests run: 153, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 sec
+    [junit] Tests run: 153, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestMultiValueMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestMultiValueMap
+    [junit] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+    [junit] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestPredicatedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestPredicatedMap
+    [junit] Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+    [junit] Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestPredicatedSortedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestPredicatedSortedMap
+    [junit] Tests run: 43, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+    [junit] Tests run: 43, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestReferenceIdentityMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestReferenceIdentityMap
+    [junit] Tests run: 146, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.224 sec
+    [junit] Tests run: 146, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.224 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestReferenceMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestReferenceMap
+    [junit] Tests run: 144, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.221 sec
+    [junit] Tests run: 144, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.221 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestSingletonMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestSingletonMap
+    [junit] Tests run: 165, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.182 sec
+    [junit] Tests run: 165, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.182 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestStaticBucketMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestStaticBucketMap
+    [junit] Tests run: 122, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec
+    [junit] Tests run: 122, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestTransformedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestTransformedMap
+    [junit] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+    [junit] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestTransformedSortedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestTransformedSortedMap
+    [junit] Tests run: 506, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 sec
+    [junit] Tests run: 506, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestUnmodifiableMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestUnmodifiableMap
+    [junit] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+    [junit] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestUnmodifiableOrderedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestUnmodifiableOrderedMap
+    [junit] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+    [junit] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.map.TestUnmodifiableSortedMap
+    [junit] Testsuite: org.apache.commons.collections.map.TestUnmodifiableSortedMap
+    [junit] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+    [junit] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestCompositeSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestCompositeSet
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestListOrderedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestListOrderedSet
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestListOrderedSet2
+    [junit] Testsuite: org.apache.commons.collections.set.TestListOrderedSet2
+    [junit] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+    [junit] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestMapBackedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestMapBackedSet
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestMapBackedSet2
+    [junit] Testsuite: org.apache.commons.collections.set.TestMapBackedSet2
+    [junit] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+    [junit] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestPredicatedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestPredicatedSet
+    [junit] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+    [junit] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestPredicatedSortedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestPredicatedSortedSet
+    [junit] Tests run: 116, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 sec
+    [junit] Tests run: 116, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestSynchronizedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestSynchronizedSet
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestSynchronizedSortedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestSynchronizedSortedSet
+    [junit] Tests run: 112, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 sec
+    [junit] Tests run: 112, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestTransformedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestTransformedSet
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestTransformedSortedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestTransformedSortedSet
+    [junit] Tests run: 114, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec
+    [junit] Tests run: 114, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestTypedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestTypedSet
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestTypedSortedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestTypedSortedSet
+    [junit] Tests run: 114, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec
+    [junit] Tests run: 114, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestUnmodifiableSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestUnmodifiableSet
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+    [junit] 
+    [junit] Running org.apache.commons.collections.set.TestUnmodifiableSortedSet
+    [junit] Testsuite: org.apache.commons.collections.set.TestUnmodifiableSortedSet
+    [junit] Tests run: 114, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+    [junit] Tests run: 114, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+    [junit] 
+
+-test-single:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 33 seconds

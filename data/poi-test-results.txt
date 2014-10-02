@@ -1,0 +1,1493 @@
+Buildfile: /tmp/poi/build.xml
+
+check-jars:
+
+fetch-jars:
+
+check-ooxml-jars:
+
+fetch-ooxml-jars:
+
+init:
+    [mkdir] Created dir: /tmp/poi/build
+    [mkdir] Created dir: /tmp/poi/build/classes
+    [mkdir] Created dir: /tmp/poi/build/test-classes
+    [mkdir] Created dir: /tmp/poi/build/test-results
+    [mkdir] Created dir: /tmp/poi/build/scratchpad-classes
+    [mkdir] Created dir: /tmp/poi/build/scratchpad-test-classes
+    [mkdir] Created dir: /tmp/poi/build/scratchpad-test-results
+    [mkdir] Created dir: /tmp/poi/build/ooxml-classes
+    [mkdir] Created dir: /tmp/poi/build/ooxml-test-classes
+    [mkdir] Created dir: /tmp/poi/build/ooxml-test-results
+    [mkdir] Created dir: /tmp/poi/build/excelant-classes
+    [mkdir] Created dir: /tmp/poi/build/excelant-test-classes
+    [mkdir] Created dir: /tmp/poi/build/excelant-test-results
+    [mkdir] Created dir: /tmp/poi/build/examples-classes
+    [mkdir] Created dir: /tmp/poi/build/dist
+    [mkdir] Created dir: /tmp/poi/build/tmp/site/build/site
+
+compile-main:
+    [javac] Compiling 893 source files to /tmp/poi/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+    [javac] Compiling 458 source files to /tmp/poi/build/test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 3 files to /tmp/poi/build/classes
+
+compile-scratchpad:
+    [javac] Compiling 513 source files to /tmp/poi/build/scratchpad-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+    [javac] Compiling 170 source files to /tmp/poi/build/scratchpad-test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 2 files to /tmp/poi/build/scratchpad-classes
+
+check-ooxml-xsds:
+
+fetch-ooxml-xsds:
+
+check-compiled-ooxml-xsds:
+
+compile-ooxml-xsds:
+
+compile-ooxml:
+    [javac] Compiling 317 source files to /tmp/poi/build/ooxml-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: /tmp/poi/src/ooxml/java/org/apache/poi/openxml4j/opc/ZipPackage.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+    [javac] Compiling 146 source files to /tmp/poi/build/ooxml-test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: /tmp/poi/src/ooxml/testcases/org/apache/poi/xssf/usermodel/TestXSSFBugs.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 1 warning
+     [copy] Copying 2 files to /tmp/poi/build/ooxml-classes
+
+compile-examples:
+    [javac] Compiling 129 source files to /tmp/poi/build/examples-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+     [copy] Copying 1 file to /tmp/poi/build/examples-classes
+
+compile-excelant:
+    [javac] Compiling 14 source files to /tmp/poi/build/excelant-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+    [javac] Compiling 12 source files to /tmp/poi/build/excelant-test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+     [copy] Copying 1 file to /tmp/poi/build/excelant-classes
+
+compile:
+
+-test-main-check:
+
+test-main:
+    [junit] Running org.apache.poi.TestPOIDocumentMain
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.155 sec
+    [junit] Running org.apache.poi.ddf.TestEscherBSERecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.ddf.TestEscherBlipRecord
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+    [junit] Running org.apache.poi.ddf.TestEscherBlipWMFRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.ddf.TestEscherBoolProperty
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ddf.TestEscherChildAnchorRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ddf.TestEscherClientAnchorRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ddf.TestEscherClientDataRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ddf.TestEscherContainerRecord
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.ddf.TestEscherDgRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ddf.TestEscherDggRecord
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ddf.TestEscherOptRecord
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.ddf.TestEscherProperty
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ddf.TestEscherPropertyFactory
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ddf.TestEscherSpRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ddf.TestEscherSpgrRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ddf.TestEscherSplitMenuColorsRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ddf.TestUnknownEscherRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hpsf.TestVariantSupport
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hpsf.basic.TestBasic
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.hpsf.basic.TestClassID
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hpsf.basic.TestEmptyProperties
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hpsf.basic.TestHPSFBugs
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.hpsf.basic.TestMetaDataIPI
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.241 sec
+    [junit] Running org.apache.poi.hpsf.basic.TestReadAllFiles
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+    [junit] Running org.apache.poi.hpsf.basic.TestUnicode
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hpsf.basic.TestWrite
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+    [junit] Running org.apache.poi.hpsf.basic.TestWriteWellKnown
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+    [junit] Running org.apache.poi.hpsf.extractor.TestHPSFPropertiesExtractor
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+    [junit] Running org.apache.poi.hssf.eventmodel.TestAbortableListener
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.hssf.eventmodel.TestEventRecordFactory
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.eventusermodel.TestEventWorkbookBuilder
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+    [junit] Running org.apache.poi.hssf.eventusermodel.TestFormatTrackingHSSFListener
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 sec
+    [junit] Running org.apache.poi.hssf.eventusermodel.TestHSSFEventFactory
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.apache.poi.hssf.eventusermodel.TestMissingRecordAwareHSSFListener
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Running org.apache.poi.hssf.extractor.TestExcelExtractor
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 sec
+    [junit] Running org.apache.poi.hssf.model.TestDrawingAggregate
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.64 sec
+    [junit] Running org.apache.poi.hssf.model.TestDrawingManager
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.model.TestDrawingManager2
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.model.TestDrawingShapes
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] Running org.apache.poi.hssf.model.TestEscherRecordFactory
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.model.TestFormulaParser
+    [junit] Tests run: 62, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] Running org.apache.poi.hssf.model.TestFormulaParserEval
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+    [junit] Running org.apache.poi.hssf.model.TestFormulaParserIf
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hssf.model.TestHSSFAnchor
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.hssf.model.TestLinkTable
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 sec
+    [junit] Running org.apache.poi.hssf.model.TestOperandClassTransformer
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.model.TestRVA
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.hssf.model.TestRowBlocksReader
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.model.TestShapes
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.model.TestSheet
+    [junit] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.161 sec
+    [junit] Running org.apache.poi.hssf.model.TestSheetAdditional
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.model.TestWorkbook
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.record.TestArrayRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestAutoFilterInfoRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestBOFRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestBoolErrRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestBoundSheetRecord
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestCFHeaderRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestCFRuleRecord
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestColumnInfoRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestCommonObjectDataSubRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestDConRefRecord
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestDVALRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestDrawingGroupRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestDrawingRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestEmbeddedObjectRefSubRecord
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestEndSubRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestEscherAggregate
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestExtSSTRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hssf.record.TestExtendedFormatRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestExternalNameRecord
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestFeatRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestFontRecord
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestFormulaRecord
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestFtCblsSubRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestHyperlinkRecord
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.record.TestInterfaceEndRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestLabelRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+    [junit] Running org.apache.poi.hssf.record.TestLbsDataSubRecord
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestMergeCellsRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestNameCommentRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestNameRecord
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hssf.record.TestNoteRecord
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestNoteStructureSubRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestObjRecord
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestPaletteRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.hssf.record.TestPaneRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestRecalcIdRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestRecordFactory
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestRecordFactoryInputStream
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestRecordInputStream
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestSCLRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestSSTDeserializer
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.hssf.record.TestSSTRecord
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+    [junit] Running org.apache.poi.hssf.record.TestSSTRecordSizeCalculator
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestSharedFormulaRecord
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.hssf.record.TestStringRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestStyleRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestSubRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestSupBookRecord
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestTableRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestTextObjectBaseRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.TestTextObjectRecord
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hssf.record.TestUnicodeNameRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.TestWriteAccessRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.aggregates.TestCFRecordsAggregate
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.aggregates.TestColumnInfoRecordsAggregate
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.aggregates.TestFormulaRecordAggregate
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.aggregates.TestPageSettingsBlock
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.record.aggregates.TestRowRecordsAggregate
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.aggregates.TestSharedValueManager
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.hssf.record.aggregates.TestValueRecordsAggregate
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.record.cf.TestCellRange
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestAreaFormatRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestAreaRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestAxisLineFormatRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestAxisOptionsRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestAxisParentRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestAxisRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestAxisUsedRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestBarRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestCategorySeriesAxisRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestChartFormatRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestChartRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestChartTitleFormatRecord
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestDatRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestDataFormatRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestDefaultDataLabelTextPropertiesRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestFontBasisRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestFontIndexRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestFrameRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestLegendRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestLineFormatRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestLinkedDataRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestNumberFormatIndexRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestObjectLinkRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestPlotAreaRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestPlotGrowthRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestSeriesChartGroupIndexRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestSeriesIndexRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestSeriesLabelsRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestSeriesListRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestSeriesRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestSeriesTextRecord
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestSeriesToChartGroupRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestSheetPropertiesRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestTextRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestTickRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestUnitsRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.chart.TestValueRangeRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.common.TestUnicodeString
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hssf.record.crypto.TestBiff8DecryptingStream
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hssf.record.crypto.TestBiff8EncryptionKey
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.crypto.TestRC4
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.hssf.record.pivot.TestExtendedPivotTableViewFieldsRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.record.pivot.TestPageItemRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.record.pivot.TestViewFieldsRecord
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestBug42464
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestBugs
+    [junit] Tests run: 126, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.776 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestCellStyle
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestCloneSheet
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestComment
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestDataValidation
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestEmbeddedObjects
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestEscherGraphics
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestEscherGraphics2d
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestExternalReferenceChange
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestFontDetails
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestFormulaEvaluatorBugs
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestFormulaEvaluatorDocs
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestFormulas
+    [junit] Open /tmp/poifiles/bug27272_2270712980.xls in Excel
+    [junit] Open /tmp/poifiles/bug27272_1-640446228.xls in Excel
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.734 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFCell
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFClientAnchor
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFComment
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFConditionalFormatting
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFDataFormat
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFDataFormatter
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFDateUtil
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFExternalFunctions
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFFont
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFFormulaEvaluator
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFHeaderFooter
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFHyperlink
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFName
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFOptimiser
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFPalette
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFPatriarch
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFPicture
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFPictureData
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFRichTextString
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFRow
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFSheet
+    [junit] Tests run: 54, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFSheetAutosizeColumn
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFSheetShiftRows
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFSheetUpdateArrayFormulas
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFTextbox
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFWorkbook
+    [junit] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestOLE2Embeding
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestPOIFSProperties
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestPatriarch
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestPolygon
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestReadWriteChart
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestRowStyle
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestSanityChecker
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestShapeGroup
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestSheetHiding
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestText
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestUnicodeWorkbook
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestUppercaseWorkbook
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestWorkbook
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+    [junit] Running org.apache.poi.hssf.util.TestAreaReference
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hssf.util.TestCellReference
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hssf.util.TestHSSFColor
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hssf.util.TestRKUtil
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.crypt.TestDecryptor
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.211 sec
+    [junit] Running org.apache.poi.poifs.crypt.TestEncryptionInfo
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.eventfilesystem.TestPOIFSReaderRegistry
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestDirectoryNode
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestDocument
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.186 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestDocumentDescriptor
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestDocumentInputStream
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.612 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestDocumentNode
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestDocumentOutputStream
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestEmptyDocument
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestEntryUtils
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestFilteringDirectoryNode
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestNPOIFSFileSystem
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestNPOIFSMiniStore
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestNPOIFSStream
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestOffice2007XMLException
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestOle10Native
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestPOIFSDocumentPath
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestPOIFSFileSystem
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+    [junit] Running org.apache.poi.poifs.filesystem.TestPropertySorter
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.nio.TestDataSource
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.property.TestDirectoryProperty
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] Running org.apache.poi.poifs.property.TestDocumentProperty
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.property.TestPropertyFactory
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.property.TestPropertyTable
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.property.TestRootProperty
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.storage.TestBATBlock
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.storage.TestBlockAllocationTableReader
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Running org.apache.poi.poifs.storage.TestBlockAllocationTableWriter
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.storage.TestBlockListImpl
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.storage.TestDocumentBlock
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.storage.TestHeaderBlockReading
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.storage.TestHeaderBlockWriting
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.storage.TestPropertyBlock
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.storage.TestRawDataBlock
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Running org.apache.poi.poifs.storage.TestRawDataBlockList
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Running org.apache.poi.poifs.storage.TestSmallBlockTableReader
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.poifs.storage.TestSmallBlockTableWriter
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.poifs.storage.TestSmallDocumentBlock
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Running org.apache.poi.poifs.storage.TestSmallDocumentBlockList
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.TestSpreadsheetVersion
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.format.TestCellFormat
+    [junit] Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+    [junit] Running org.apache.poi.ss.format.TestCellFormatCondition
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.TestCellCacheEntry
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.TestEvaluationCache
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.984 sec
+    [junit] Running org.apache.poi.ss.formula.TestFormulaShifter
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.TestFunctionRegistry
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.ss.formula.TestMissingWorkbook
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.ss.formula.TestPlainCellCache
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.369 sec
+    [junit] Running org.apache.poi.ss.formula.TestSheetNameFormatter
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.TestWorkbookEvaluator
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.ss.formula.atp.TestDateParser
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.atp.TestMRound
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.atp.TestNetworkdaysFunction
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+    [junit] Running org.apache.poi.ss.formula.atp.TestRandBetween
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.ss.formula.atp.TestWorkdayCalculator
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.ss.formula.atp.TestWorkdayFunction
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
+    [junit] Running org.apache.poi.ss.formula.atp.TestYearFracCalculator
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.ss.formula.atp.TestYearFracCalculatorFromSpreadsheet
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.ss.formula.constant.TestConstantValueParser
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestAreaEval
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestCircularReferences
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestDivideEval
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestEqualEval
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestExternalFunction
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestFormulaBugs
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestFormulasFromSpreadsheet
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestMinusZeroResult
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestMissingArgEval
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestOperandResolver
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestPercentEval
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestRangeEval
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.eval.TestUnaryPlusEval
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.eval.forked.TestForkedEvaluator
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.ss.formula.function.TestFunctionMetadataRegistry
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.function.TestParseMissingBuiltInFuncs
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.function.TestReadMissingBuiltInFuncs
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestAddress
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestAverage
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestCalendarFieldFunction
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestClean
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestCountFuncs
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestDate
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestDays360
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestFinanceLib
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestFind
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestIndex
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestIndexFunctionFromSpreadsheet
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestIndirect
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestIrr
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestIsBlank
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestLeftRight
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestLen
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestLookupFunctionsFromSpreadsheet
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestMatch
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestMathX
+    [junit] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestMid
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestNper
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestNpv
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestOffset
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestPmt
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestPoisson
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestRank
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestRoundFuncs
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestRowCol
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestStatsLib
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestSubtotal
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestSumif
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestSumifs
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestSumproduct
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestTFunc
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestText
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestTime
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestTrim
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestTrunc
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestValue
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.functions.TestXYNumericFunction
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestArea3DPtg
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestAreaErrPtg
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestAreaPtg
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestArrayPtg
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestAttrPtg
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestErrPtg
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestExternalFunctionFormulas
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestExternalNameReference
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestFuncPtg
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestFuncVarPtg
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestIntersectionPtg
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestPercentPtg
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestRangePtg
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestRef3DPtg
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestReferencePtg
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.ss.formula.ptg.TestUnionPtg
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.usermodel.TestDataFormatter
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] Running org.apache.poi.ss.usermodel.charts.TestDataSources
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.ss.util.TestCellRangeAddress
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.util.TestCellReference
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.util.TestDateFormatConverter
+    [junit] Open /tmp/poifiles/LocaleDatesDefault416946862.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleDatesShort-483515208.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleDatesMedium1440878547.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleDatesLong561605946.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleDatesFull622994927.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleDateTimesDefault-1688293268.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleDateTimesShort78529855.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleDateTimesMedium-2131861843.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleDateTimesLong8563416.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleDateTimesFull1829252498.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleTimesDefault-420060307.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleTimesShort852287235.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleTimesMedium-1656265770.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleTimesLong-1444151342.xlsx in Excel
+    [junit] Open /tmp/poifiles/LocaleTimesFull-1447971305.xlsx in Excel
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.511 sec
+    [junit] Running org.apache.poi.ss.util.TestExpandedDouble
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.ss.util.TestNumberComparer
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+    [junit] Running org.apache.poi.ss.util.TestNumberToTextConverter
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.ss.util.TestRegion
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.util.TestSheetBuilder
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.util.TestWorkbookUtil
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.util.cellwalk.TestCellWalk
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.util.TestArrayUtil
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.util.TestBinaryTree
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.487 sec
+    [junit] Running org.apache.poi.util.TestBitField
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.util.TestByteField
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.util.TestHexDump
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.util.TestIntList
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+    [junit] Running org.apache.poi.util.TestIntegerField
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.util.TestLittleEndian
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.util.TestLittleEndianStreams
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.util.TestLongField
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.util.TestPOILogFactory
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.util.TestPOILogger
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.util.TestShortField
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.util.TestShortList
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.apache.poi.util.TestStringUtil
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.util.TestTempFile
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+-test-main-write-testfile:
+
+-test-scratchpad-check:
+
+test-scratchpad:
+    [junit] Running org.apache.poi.TestPOIDocumentScratchpad
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec
+    [junit] Running org.apache.poi.hdf.model.TestHDFDocument
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] Running org.apache.poi.hdgf.TestHDGFCore
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec
+    [junit] Running org.apache.poi.hdgf.TestHDGFLZW
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.hdgf.chunks.TestChunks
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.hdgf.extractor.TestVisioExtractor
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec
+    [junit] Running org.apache.poi.hdgf.pointers.TestPointerFactory
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hdgf.streams.TestStreamBasics
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hdgf.streams.TestStreamBugs
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+    [junit] Running org.apache.poi.hdgf.streams.TestStreamComplex
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.hmef.TestAttachments
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+    [junit] Running org.apache.poi.hmef.TestCompressedRTF
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.hmef.TestHMEFMessage
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+    [junit] Running org.apache.poi.hmef.attribute.TestMAPIAttributes
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.hmef.attribute.TestTNEFAttributes
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.hpbf.TestHPBFDocument
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.hpbf.extractor.TestPublisherTextExtractor
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+    [junit] Running org.apache.poi.hpbf.model.TestEscherParts
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+    [junit] Running org.apache.poi.hpbf.model.TestQuillContents
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+    [junit] Running org.apache.poi.hslf.TestEncryptedFile
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.hslf.TestReWrite
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec
+    [junit] Running org.apache.poi.hslf.TestReWriteSanity
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.hslf.TestRecordCounts
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.extractor.TestCruddyExtractor
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hslf.extractor.TestExtractor
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 sec
+    [junit] Running org.apache.poi.hslf.model.TestBackground
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+    [junit] Running org.apache.poi.hslf.model.TestFreeform
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.hslf.model.TestHeadersFooters
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Running org.apache.poi.hslf.model.TestHyperlink
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hslf.model.TestImagePainter
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.model.TestLine
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hslf.model.TestMovieShape
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.hslf.model.TestOleEmbedding
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.hslf.model.TestPPFont
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.model.TestPPGraphics2D
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.hslf.model.TestPicture
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec
+    [junit] Running org.apache.poi.hslf.model.TestSetBoldItalic
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 sec
+    [junit] Running org.apache.poi.hslf.model.TestShapes
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+    [junit] Running org.apache.poi.hslf.model.TestSheet
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.hslf.model.TestSlideChangeNotes
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.model.TestSlideMaster
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.hslf.model.TestSlides
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Running org.apache.poi.hslf.model.TestTable
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.hslf.model.TestTextRun
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] Running org.apache.poi.hslf.model.TestTextRunReWrite
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hslf.model.TestTextShape
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.hslf.record.TestAnimationInfoAtom
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestCString
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestColorSchemeAtom
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestComment2000
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hslf.record.TestComment2000Atom
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestCurrentUserAtom
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestDocument
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestDocumentAtom
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestDocumentEncryptionAtom
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestExControl
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestExHyperlink
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hslf.record.TestExHyperlinkAtom
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestExMediaAtom
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestExObjList
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestExObjListAtom
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestExOleObjAtom
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestExOleObjStg
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestExVideoContainer
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestFontCollection
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestHeadersFootersAtom
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestHeadersFootersContainer
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestInteractiveInfo
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestInteractiveInfoAtom
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestNotesAtom
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestRecordContainer
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hslf.record.TestRecordTypes
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestSlideAtom
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestSlidePersistAtom
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestSound
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestStyleTextPropAtom
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hslf.record.TestTextBytesAtom
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestTextCharsAtom
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestTextHeaderAtom
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestTextRulerAtom
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestTextSpecInfoAtom
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestTxInteractiveInfoAtom
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.record.TestTxMasterStyleAtom
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.record.TestUserEditAtom
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestAddingSlides
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestBugs
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestCounts
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestMostRecentRecords
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestNotesText
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestPictures
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestReOrderingSlides
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestRecordSetup
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestRichTextRun
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestSheetText
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestSlideOrdering
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.hslf.usermodel.TestSoundData
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hslf.util.TestSystemTimeUtils
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hsmf.TestBasics
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.hsmf.TestBlankFileRead
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hsmf.TestFileWithAttachmentsRead
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hsmf.TestOutlook30FileRead
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hsmf.TestSimpleFileRead
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hsmf.datatypes.TestChunkData
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hsmf.datatypes.TestMAPIProperty
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hsmf.datatypes.TestSorters
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hsmf.datatypes.TestTypes
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hsmf.extractor.TestOutlookTextExtractor
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+    [junit] Running org.apache.poi.hsmf.parsers.TestPOIFSChunkParser
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] Running org.apache.poi.hssf.converter.TestExcelConverterSuite
+    [junit] Tests run: 548, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.93 sec
+    [junit] Running org.apache.poi.hssf.usermodel.TestHSSFChart
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+    [junit] Running org.apache.poi.hwpf.TestFieldsTables
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hwpf.TestHWPFPictures
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+    [junit] Running org.apache.poi.hwpf.TestHWPFRangeParts
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.hwpf.converter.TestNumberFormatter
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+    [junit] Running org.apache.poi.hwpf.converter.TestWordToConverterSuite
+    [junit] Tests run: 318, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.001 sec
+    [junit] Running org.apache.poi.hwpf.converter.TestWordToFoConverter
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.hwpf.converter.TestWordToHtmlConverter
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+    [junit] Running org.apache.poi.hwpf.converter.TestWordToTextConverter
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+    [junit] Running org.apache.poi.hwpf.extractor.TestDifferentRoutes
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.extractor.TestWordExtractor
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+    [junit] Running org.apache.poi.hwpf.extractor.TestWordExtractorBugs
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+    [junit] Running org.apache.poi.hwpf.model.TestBookmarksTables
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hwpf.model.TestCHPBinTable
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.model.TestDocumentProperties
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hwpf.model.TestFileInformationBlock
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hwpf.model.TestFontTable
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hwpf.model.TestListTables
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.model.TestNotesTables
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hwpf.model.TestPAPBinTable
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.hwpf.model.TestPlexOfCps
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.model.TestRevisionMarkAuthorTable
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hwpf.model.TestSavedByTable
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.apache.poi.hwpf.model.TestSectionTable
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.model.TestStyleSheet
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.model.TestTextPieceTable
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hwpf.sprm.TestSprms
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestBorderCode
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestBug46610
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestBug49820
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestBug50075
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestBugs
+    [junit] Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestHWPFOldDocument
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestHeaderStories
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestLists
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestOfficeDrawings
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestPictures
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestProblems
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestRange
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestRangeDelete
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestRangeInsertion
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestRangeProperties
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestRangeReplacement
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestRangeSymbols
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestShapes
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.hwpf.usermodel.TestTableRow
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+-test-scratchpad-write-testfile:
+
+-test-ooxml-check:
+
+test-ooxml:
+    [junit] Running org.apache.poi.TestDetectAsOOXML
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec
+    [junit] Running org.apache.poi.TestEmbeded
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.663 sec
+    [junit] Running org.apache.poi.TestPOIXMLDocument
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 sec
+    [junit] Running org.apache.poi.TestPOIXMLProperties
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec
+    [junit] Running org.apache.poi.TestXMLPropertiesTextExtractor
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 sec
+    [junit] Running org.apache.poi.extractor.TestExtractorFactory
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.787 sec
+    [junit] Running org.apache.poi.openxml4j.opc.TestContentType
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.openxml4j.opc.TestFileHelper
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.openxml4j.opc.TestListParts
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.openxml4j.opc.TestPackage
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec
+    [junit] Running org.apache.poi.openxml4j.opc.TestPackageCoreProperties
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+    [junit] Running org.apache.poi.openxml4j.opc.TestPackagePartName
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.openxml4j.opc.TestPackageThumbnail
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+    [junit] Running org.apache.poi.openxml4j.opc.TestPackagingURIHelper
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.openxml4j.opc.TestRelationships
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
+    [junit] Running org.apache.poi.openxml4j.opc.compliance.TestOPCComplianceCoreProperties
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] Running org.apache.poi.openxml4j.opc.compliance.TestOPCCompliancePackageModel
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.openxml4j.opc.compliance.TestOPCCompliancePartName
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.openxml4j.opc.internal.TestContentTypeManager
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.TestWorkbookFactory
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+    [junit] Running org.apache.poi.ss.format.TestCellFormatPart
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.543 sec
+    [junit] Running org.apache.poi.util.TestIdentifierManager
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.xslf.TestXSLFBugs
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 sec
+    [junit] Running org.apache.poi.xslf.TestXSLFSlideShow
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+    [junit] Running org.apache.poi.xslf.extractor.TestXSLFPowerPointExtractor
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.263 sec
+    [junit] Running org.apache.poi.xslf.geom.TestFormulaParser
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] Running org.apache.poi.xslf.geom.TestPresetGeometries
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.452 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestPPTX2PNG
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.533 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXMLSlideShow
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFAutoShape
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFColor
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFConnectorShape
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFFreeformShape
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFGroupShape
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFHyperlink
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFPictureShape
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFShape
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFShapeContainer
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFSheet
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFSimpleShape
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFSlide
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.458 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFSlideShow
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFTable
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFTableStyles
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFTextBox
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFTextParagraph
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFTextRun
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFTextShape
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+    [junit] Running org.apache.poi.xslf.usermodel.TestXSLFTheme
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.131 sec
+    [junit] Running org.apache.poi.xssf.TestSheetProtection
+    [junit] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+    [junit] Running org.apache.poi.xssf.TestWorkbookProtection
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+    [junit] Running org.apache.poi.xssf.eventusermodel.TestReadOnlySharedStringsTable
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.xssf.eventusermodel.TestXSSFReader
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+    [junit] Running org.apache.poi.xssf.extractor.TestXSSFEventBasedExcelExtractor
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 sec
+    [junit] Running org.apache.poi.xssf.extractor.TestXSSFExcelExtractor
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.293 sec
+    [junit] Running org.apache.poi.xssf.extractor.TestXSSFExportToXML
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+    [junit] Running org.apache.poi.xssf.extractor.TestXSSFImportFromXML
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec
+    [junit] Running org.apache.poi.xssf.io.TestLoadSaveXSSF
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+    [junit] Running org.apache.poi.xssf.model.TestCalculationChain
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec
+    [junit] Running org.apache.poi.xssf.model.TestCommentsTable
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+    [junit] Running org.apache.poi.xssf.model.TestMapInfo
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.xssf.model.TestSharedStringsTable
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+    [junit] Running org.apache.poi.xssf.model.TestStylesTable
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+    [junit] Running org.apache.poi.xssf.streaming.TestSXSSFCell
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 sec
+    [junit] Running org.apache.poi.xssf.streaming.TestSXSSFHyperlink
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Running org.apache.poi.xssf.streaming.TestSXSSFRow
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 sec
+    [junit] Running org.apache.poi.xssf.streaming.TestSXSSFSheet
+    [junit] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec
+    [junit] Running org.apache.poi.xssf.streaming.TestSXSSFWorkbook
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.325 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestFormulaEvaluatorOnXSSF
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.198 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestSheetHiding
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFBugs
+    [junit] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.905 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFCell
+    [junit] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFCellStyle
+    [junit] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFChart
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFChartSheet
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFColor
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFComment
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFConditionalFormatting
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFDataFormat
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFDataValidation
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFDialogSheet
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFDrawing
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFExternalFunctions
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFFont
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFFormulaEvaluation
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFFormulaParser
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFHeaderFooter
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFHyperlink
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFName
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFPicture
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFPictureData
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFPrintSetup
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFRichTextString
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFRow
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.095 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFSheet
+    [junit] Tests run: 51, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFSheetAutosizeColumn
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFSheetShiftRows
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFSheetUpdateArrayFormulas
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFVMLDrawing
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.xssf.usermodel.TestXSSFWorkbook
+    [junit] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 sec
+    [junit] Running org.apache.poi.xssf.usermodel.charts.TestXSSFChartAxis
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.apache.poi.xssf.usermodel.charts.TestXSSFChartLegend
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.xssf.usermodel.charts.TestXSSFManualLayout
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.xssf.usermodel.charts.TestXSSFScatterChartData
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Running org.apache.poi.xssf.usermodel.charts.TestXSSFValueAxis
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.xssf.usermodel.extensions.TestXSSFBorder
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.xssf.usermodel.extensions.TestXSSFCellFill
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.xssf.usermodel.extensions.TestXSSFSheetComments
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.xssf.usermodel.helpers.TestColumnHelper
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.apache.poi.xssf.usermodel.helpers.TestHeaderFooterHelper
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.xssf.util.TestCTColComparator
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.xssf.util.TestEvilUnclosedBRFixingInputStream
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.apache.poi.xssf.util.TestNumericRanges
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.xwpf.TestAllExtendedProperties
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+    [junit] Running org.apache.poi.xwpf.TestDocumentProtection
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+    [junit] Running org.apache.poi.xwpf.TestPackageCorePropertiesGetKeywords
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Running org.apache.poi.xwpf.extractor.TestXWPFWordExtractor
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.163 sec
+    [junit] Running org.apache.poi.xwpf.model.TestXWPFDecorators
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] Running org.apache.poi.xwpf.model.TestXWPFHeaderFooterPolicy
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFDocument
+    [junit] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFFootnotes
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFHeader
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFHeadings
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFNumbering
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFParagraph
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFPictureData
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFRun
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFSmartTag
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFStyles
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFTable
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFTableCell
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.apache.poi.xwpf.usermodel.TestXWPFTableRow
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+-test-ooxml-write-testfile:
+
+-test-excelant-check:
+
+test-excelant:
+    [junit] Running org.apache.poi.ss.examples.formula.TestExcelAntUserDefinedFunction
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.apache.poi.ss.excelant.TestBuildFile
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.707 sec
+    [junit] Running org.apache.poi.ss.excelant.TestExcelAntPrecision
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.excelant.TestExcelAntSet
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.apache.poi.ss.excelant.TestExcelAntSetDoubleCell
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+    [junit] Running org.apache.poi.ss.excelant.util.TestExcelAntEvaluationResult
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.apache.poi.ss.excelant.util.TestExcelAntWorkbookUtil
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+    [junit] Running org.apache.poi.ss.excelant.util.TestExcelAntWorkbookUtilFactory
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+-test-excelant-write-testfile:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 52 seconds
