@@ -1,0 +1,2 @@
+#!/bin/sh
+grep "Tests run" $1 | sed -n '1~2!p' | cut -d ':' -f 2,6 | sed -n 's/Failures: //p' | sed -n 's/ sec//p'
