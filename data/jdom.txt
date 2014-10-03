@@ -1,0 +1,667 @@
+Buildfile: /home/plam/hacking/jdom/build.xml
+     [echo] ----------- JDOM 2.x-2014.10.02.20.16 ------------
+
+prepare:
+
+compile.core:
+
+compile.contrib:
+    [javac] Compiling 2 source files to /home/plam/hacking/jdom/build/contrib
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+compile.junit:
+
+junit.nodeps:
+   [delete] Deleting directory /home/plam/hacking/jdom/build/junit.report
+    [mkdir] Created dir: /home/plam/hacking/jdom/build/junit.report
+   [delete] Deleting directory /home/plam/hacking/jdom/build/junit.xml
+    [mkdir] Created dir: /home/plam/hacking/jdom/build/junit.xml
+    [junit] Running org.jdom2.TestIllegalAddExceptn
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 sec
+    [junit] Running org.jdom2.TestIllegalNameExceptn
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.jdom2.TestIllegalTargetExceptn
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.jdom2.TestStringBin
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.262 sec
+    [junit] Running org.jdom2.input.sax.TestTextBuffer
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+    [junit] Running org.jdom2.test.cases.TestAttribute
+    [junit] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+    [junit] Running org.jdom2.test.cases.TestAttributeList
+    [junit] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec
+    [junit] Running org.jdom2.test.cases.TestBridgeMethods
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.jdom2.test.cases.TestCDATA
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.jdom2.test.cases.TestComment
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.jdom2.test.cases.TestContentList
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec
+    [junit] Running org.jdom2.test.cases.TestDefaultJDOMFactory
+    [junit] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+    [junit] Running org.jdom2.test.cases.TestDescendantFilterIterator
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.jdom2.test.cases.TestDescendantIterator
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.jdom2.test.cases.TestDocType
+    [junit] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+    [junit] Running org.jdom2.test.cases.TestDocument
+    [junit] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] Running org.jdom2.test.cases.TestElement
+    [junit] Tests run: 116, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+    [junit] Running org.jdom2.test.cases.TestElementFilterList
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+    [junit] Running org.jdom2.test.cases.TestEntityRef
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.jdom2.test.cases.TestFilterList
+    [junit] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Running org.jdom2.test.cases.TestFilterListElement
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+    [junit] Running org.jdom2.test.cases.TestFilterListText
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+    [junit] Running org.jdom2.test.cases.TestJDOMExceptn
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.jdom2.test.cases.TestNamespace
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.jdom2.test.cases.TestNamespaceAware
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Running org.jdom2.test.cases.TestProcessingInstruction
+    [junit] Tests run: 31, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.117 sec
+    [junit] Running org.jdom2.test.cases.TestSerialization
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.jdom2.test.cases.TestSlimJDOMFactory
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.jdom2.test.cases.TestSlimJDOMFactoryNoText
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+    [junit] Running org.jdom2.test.cases.TestText
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.jdom2.test.cases.TestUncheckedJDOMFactory
+    [junit] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+    [junit] Running org.jdom2.test.cases.TestVerifier
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+    [junit] Running org.jdom2.test.cases.TestVerifierCharacters
+    [junit] Completed test testIsXMLCombiningChar in 3ms
+    [junit] Completed test testIsXMLExtender in 4ms
+    [junit] Completed test testIsXMLLetterOrDigit in 3ms
+    [junit] Completed test testIsXMLWhitespace in 3ms
+    [junit] Completed test testIsXMLDigit in 4ms
+    [junit] Completed test testIsXMLNameCharacter in 3ms
+    [junit] Completed test testIsXMLPublicIDCharacter in 3ms
+    [junit] Completed test testIsXMLNameStartCharacter in 2ms
+    [junit] Completed test testIsURICharacter in 3ms
+    [junit] Completed test testIsHexDigit in 3ms
+    [junit] Completed test testIsXMLLetter in 3ms
+    [junit] Completed test testIsHighSurrogate in 3ms
+    [junit] Completed test testIsLowSurrogate in 3ms
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec
+    [junit] Running org.jdom2.test.cases.adapters.TestJAXPDOMAdapter
+    [junit] JAXPDOMAdapter Speed 0.003 0
+    [junit] JAXPDOMAdapter Speed 0.001 0
+    [junit] JAXPDOMAdapter Speed 0.001 1
+    [junit] JAXPDOMAdapter Speed 0.001 1
+    [junit] JAXPDOMAdapter Speed 0.001 1
+    [junit] JAXPDOMAdapter Speed 0.001 0
+    [junit] JAXPDOMAdapter Speed 0.001 1
+    [junit] JAXPDOMAdapter Speed 0.001 1
+    [junit] JAXPDOMAdapter Speed 0.001 0
+    [junit] JAXPDOMAdapter Speed 0.001 1
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+    [junit] Running org.jdom2.test.cases.filter.TestAtributeFilter
+    [junit] Two different (not equals() ) Filters have the same hashCode(): 103138442
+    [junit]    org.jdom2.filter.AttributeFilter@625c48a 
+    [junit]    org.jdom2.filter.AttributeFilter@625c48a
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+    [junit] Running org.jdom2.test.cases.filter.TestContentFilter
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 sec
+    [junit] Running org.jdom2.test.cases.filter.TestElementFilter
+    [junit] Two different (not equals() ) Filters have the same hashCode(): 103138442
+    [junit]    [ElementFilter: Name test with Namespace null] 
+    [junit]    [ElementFilter: Name test with Namespace [Namespace: prefix "" is mapped to URI ""]]
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+    [junit] Running org.jdom2.test.cases.filter.TestFilters
+    [junit] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+    [junit] Running org.jdom2.test.cases.filter.TestPassThroughFilter
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.jdom2.test.cases.input.TestBuilderErrorHandler
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.jdom2.test.cases.input.TestDOMBuilder
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 sec
+    [junit] Running org.jdom2.test.cases.input.TestDTDParser
+    [junit] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Running org.jdom2.test.cases.input.TestJDOMParseExceptn
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.jdom2.test.cases.input.TestSAXBuilder
+    [junit] Tests run: 44, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.052 sec
+    [junit] Running org.jdom2.test.cases.input.TestSAXComplexSchema
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.jdom2.test.cases.input.TestSAXHandler
+    [junit] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+    [junit] Running org.jdom2.test.cases.input.TestStAXEventBuilder
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.028 sec
+    [junit] Running org.jdom2.test.cases.input.TestStAXStreamBuilder
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.027 sec
+    [junit] Running org.jdom2.test.cases.input.sax.TestXMLReaderJAXPFactory
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.jdom2.test.cases.input.sax.TestXMLReaderSAX2Factory
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] Running org.jdom2.test.cases.input.sax.TestXMLReaderSchemaFactory
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+    [junit] Running org.jdom2.test.cases.input.sax.TestXMLReaderSingletons
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+    [junit] Running org.jdom2.test.cases.input.sax.TestXMLReaderXSDFactory
+    [junit] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+    [junit] Running org.jdom2.test.cases.jaxb.TestJDOMNamespaceContext
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.jdom2.test.cases.jaxb.TestJDOMStreamReader
+    [junit] testSimpleDocument_BuildsFromReader_SameDocument
+    [junit] testSimpleDocWithNamespace_BuildsFromReader_SameDocument
+    [junit] testDocWithAttributes_HasAttributes
+    [junit] testDocWithMixedContent_HandlesMixedContent
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.jdom2.test.cases.jaxb.TestJDOMStreamWriter
+    [junit] testEmptyRootElement_DocumentHasEmptyRoot
+    [junit] testElementsWithNamespace
+    [junit] testMultipleElementsWithText_DocHasElements
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.jdom2.test.cases.located.TestLocatedJDOMFactory
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+    [junit] Running org.jdom2.test.cases.output.TestDOMOutputter
+    [junit] Tests run: 82, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+    [junit] Running org.jdom2.test.cases.output.TestDOMOutputterXmlnsNamespaces
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.jdom2.test.cases.output.TestFormat
+    [junit] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+    [junit] Running org.jdom2.test.cases.output.TestSAXOutputter
+    [junit] Tests run: 94, Failures: 0, Errors: 0, Skipped: 14, Time elapsed: 0.094 sec
+    [junit] Running org.jdom2.test.cases.output.TestStAXEventOutputter
+    [junit] Tests run: 92, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.061 sec
+    [junit] Running org.jdom2.test.cases.output.TestStAXOutputter2Writer
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="rootns" xmlns:ans="attns" xmlns:cns="childns" att1="val1" ans:att2="val2">
+    [junit] 	<child xmlns="" att="child1" />
+    [junit] 	<child att="child2" />
+    [junit] 	<cns:child att="child3" />
+    [junit] 	<child ans:att="child4" />
+    [junit] 	<child att="child5" />
+    [junit] </root>
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="rootns" xmlns:ans="attns" xmlns:cns="childns" att1="val1" ans:att2="val2">
+    [junit] 	<child xmlns="" att="child1" />
+    [junit] 	<child att="child2" />
+    [junit] 	<cns:child att="child3" />
+    [junit] 	<child ans:att="child4" />
+    [junit] 	<child att="child5" />
+    [junit] </root>
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="ns:1"><child xmlns="" /></root>
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="ns:1"><child xmlns="" /></root>
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <!-- root comment --><?jdomtest root level ?><root att1="val1" att2="val2">
+    [junit]   text
+    [junit] 	<child att="child1" xml:space="preserve"> hello Frodo Baggins! </child>
+    [junit] 	<child att="child2" />
+    [junit] 	<?jdomtest processing instruction ?>
+    [junit] 	<child att="child3" />
+    [junit] 	<!-- comment  -->
+    [junit] 	<child att="child4" unresolved="&amp;" />
+    [junit] 	<child att="child5"> <![CDATA[some cdata text ]]> </child>
+    [junit] 	<child att="child6">
+    [junit] 	  <leaf att="Leaf6" />
+    [junit] 	</child>
+    [junit] </root><!-- trailing comment --><?jdomtest post root?>
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <!-- root comment --><?jdomtest root level ?><root att1="val1" att2="val2">
+    [junit]   text
+    [junit] 	<child att="child1" xml:space="preserve"> hello Frodo Baggins! </child>
+    [junit] 	<child att="child2" />
+    [junit] 	<?jdomtest processing instruction ?>
+    [junit] 	<child att="child3" />
+    [junit] 	<!-- comment  -->
+    [junit] 	<child att="child4" unresolved="&amp;" />
+    [junit] 	<child att="child5"> <![CDATA[some cdata text ]]> </child>
+    [junit] 	<child att="child6">
+    [junit] 	  <leaf att="Leaf6" />
+    [junit] 	</child>
+    [junit] </root><!-- trailing comment --><?jdomtest post root?>
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+    [junit] TEST org.jdom2.test.cases.output.TestStAXOutputter2Writer FAILED
+    [junit] Running org.jdom2.test.cases.output.TestStAXReader2Builder
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="rootns" xmlns:ans="attns" xmlns:cns="childns" att1="val1" ans:att2="val2">
+    [junit] 	<child xmlns="" att="child1" />
+    [junit] 	<child att="child2" />
+    [junit] 	<cns:child att="child3" />
+    [junit] 	<child ans:att="child4" />
+    [junit] 	<child att="child5" />
+    [junit] </root>
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="rootns" xmlns:ans="attns" xmlns:cns="childns" att1="val1" ans:att2="val2">
+    [junit] 	<child xmlns="" att="child1" />
+    [junit] 	<child att="child2" />
+    [junit] 	<cns:child att="child3" />
+    [junit] 	<child ans:att="child4" />
+    [junit] 	<child att="child5" />
+    [junit] </root>
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="ns:1"><child xmlns="" /></root>
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="ns:1"><child xmlns="" /></root>
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <!-- root comment --><?jdomtest root level ?><root att1="val1" att2="val2">
+    [junit]   text
+    [junit] 	<child att="child1" xml:space="preserve"> hello Frodo Baggins! </child>
+    [junit] 	<child att="child2" />
+    [junit] 	<?jdomtest processing instruction ?>
+    [junit] 	<child att="child3" />
+    [junit] 	<!-- comment  -->
+    [junit] 	<child att="child4" unresolved="&amp;" />
+    [junit] 	<child att="child5"> <![CDATA[some cdata text ]]> </child>
+    [junit] 	<child att="child6">
+    [junit] 	  <leaf att="Leaf6" />
+    [junit] 	</child>
+    [junit] </root><!-- trailing comment --><?jdomtest post root?>
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <!-- root comment --><?jdomtest root level ?><root att1="val1" att2="val2">
+    [junit]   text
+    [junit] 	<child att="child1" xml:space="preserve"> hello Frodo Baggins! </child>
+    [junit] 	<child att="child2" />
+    [junit] 	<?jdomtest processing instruction ?>
+    [junit] 	<child att="child3" />
+    [junit] 	<!-- comment  -->
+    [junit] 	<child att="child4" unresolved="&amp;" />
+    [junit] 	<child att="child5"> <![CDATA[some cdata text ]]> </child>
+    [junit] 	<child att="child6">
+    [junit] 	  <leaf att="Leaf6" />
+    [junit] 	</child>
+    [junit] </root><!-- trailing comment --><?jdomtest post root?>
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.jdom2.test.cases.output.TestStAXReader2Writer
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="rootns" xmlns:ans="attns" xmlns:cns="childns" att1="val1" ans:att2="val2">
+    [junit] 	<child xmlns="" att="child1" />
+    [junit] 	<child att="child2" />
+    [junit] 	<cns:child att="child3" />
+    [junit] 	<child ans:att="child4" />
+    [junit] 	<child att="child5" />
+    [junit] </root>
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="rootns" xmlns:ans="attns" xmlns:cns="childns" att1="val1" ans:att2="val2">
+    [junit] 	<child xmlns="" att="child1" />
+    [junit] 	<child xmlns="" att="child2" />
+    [junit] 	<ns001:child xmlns:ns001="cns" att="child3" />
+    [junit] 	<child xmlns="" ans:att="child4" />
+    [junit] 	<child xmlns="" att="child5" />
+    [junit] </root>
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="ns:1"><child xmlns="" /></root>
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root xmlns="ns:1"><child xmlns="" /></root>
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root />
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Compare from:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root att1="val1" att2="val2">
+    [junit]   text
+    [junit] 	<child att="child1" xml:space="preserve"> hello Frodo Baggins! </child>
+    [junit] 	<child att="child2" />
+    [junit] 	<?jdomtest processing instruction ?>
+    [junit] 	<child att="child3" />
+    [junit] 	<!-- comment  -->
+    [junit] 	<child att="child4" unresolved="&amp;" />
+    [junit] 	<child att="child5"> <![CDATA[some cdata text ]]> </child>
+    [junit] 	<child att="child6">
+    [junit] 	  <leaf att="Leaf6" />
+    [junit] 	</child>
+    [junit] </root>
+    [junit] Compare to:
+    [junit] 
+    [junit] <?xml version="1.0" encoding="UTF-8"?>
+    [junit] <root att1="val1" att2="val2">
+    [junit]   text
+    [junit] 	<child att="child1" xml:space="preserve"> hello Frodo Baggins! </child>
+    [junit] 	<child att="child2" />
+    [junit] 	<?jdomtest processing instruction ?>
+    [junit] 	<child att="child3" />
+    [junit] 	
+    [junit] 	<child att="child4" unresolved="&amp;" />
+    [junit] 	<child att="child5">  </child>
+    [junit] 	<child att="child6">
+    [junit] 	  <leaf att="Leaf6" />
+    [junit] 	</child>
+    [junit] </root>
+    [junit] 
+    [junit] 
+    [junit] 
+    [junit] Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+    [junit] TEST org.jdom2.test.cases.output.TestStAXReader2Writer FAILED
+    [junit] Running org.jdom2.test.cases.output.TestStAXStreamOutputter
+    [junit] Tests run: 91, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.041 sec
+    [junit] Running org.jdom2.test.cases.output.TestXMLOutputProcessor
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+    [junit] Running org.jdom2.test.cases.output.TestXMLOutputter
+    [junit] Tests run: 84, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
+    [junit] Running org.jdom2.test.cases.serialize.TestSubclassSerializables
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+    [junit] Running org.jdom2.test.cases.special.TestIssue008ExpandEntity
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+    [junit] Running org.jdom2.test.cases.transform.TestJDOMResult
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+    [junit] Running org.jdom2.test.cases.transform.TestJDOMSource
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+    [junit] Running org.jdom2.test.cases.transform.TestJDOMTransform
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.026 sec
+    [junit] Running org.jdom2.test.cases.transform.TestXSLTransformExceptn
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.jdom2.test.cases.transform.TestXSLTransformer
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.102 sec
+    [junit] Running org.jdom2.test.cases.util.TestArrayCopy
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+    [junit] Running org.jdom2.test.cases.util.TestNamespaceStack
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+    [junit] Running org.jdom2.test.cases.util.TestReflectionConstructor
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.jdom2.test.cases.xpath.TestDefaultXPathHelper
+    [junit] Running XPath for [DocType: <!DOCTYPE root [
+    [junit]   <!ELEMENT root (#PCDATA)>
+    [junit]   <!ENTITY unres "Expand Me!">
+    [junit] ]>]: /node()[1]
+    [junit] Running XPath for [Element: <root/>]: /root
+    [junit] Running XPath for [Attribute: att1="val1"]: /root/@att1
+    [junit] Running XPath for [Attribute: att2="val2"]: /root/@att2
+    [junit] Running XPath for [Text: 
+    [junit]   text
+    [junit] 	]: /root/text()[1]
+    [junit] Running XPath for [Element: <child/>]: /root/child[1]
+    [junit] Running XPath for [Attribute: att="child1"]: /root/child[1]/@att
+    [junit] Running XPath for [Attribute: xml:space="preserve"]: /root/child[1]/@*[local-name() = 'space' and namespace-uri() = 'http://www.w3.org/XML/1998/namespace']
+    [junit] Running XPath for [Text:  hello Frodo Baggins! ]: /root/child[1]/text()
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[2]
+    [junit] Running XPath for [Element: <child/>]: /root/child[2]
+    [junit] Running XPath for [Attribute: att="child2"]: /root/child[2]/@att
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[3]
+    [junit] Running XPath for [ProcessingInstruction: <?jdomtest processing instruction ?>]: /root/processing-instruction()
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[4]
+    [junit] Running XPath for [Element: <child/>]: /root/child[3]
+    [junit] Running XPath for [Attribute: att="child3"]: /root/child[3]/@att
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[5]
+    [junit] Running XPath for [Element: <child [Namespace: childns]/>]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][1]
+    [junit] Running XPath for [Attribute: att="childns 1"]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][1]/@att
+    [junit] Running XPath for [Text: 
+    [junit] 	  ]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][1]/text()[1]
+    [junit] Running XPath for [Comment: <!-- ns comment 1 -->]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][1]/comment()
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][1]/text()[2]
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[6]
+    [junit] Running XPath for [Comment: <!-- comment  -->]: /root/comment()
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[7]
+    [junit] Running XPath for [Element: <child/>]: /root/child[4]
+    [junit] Running XPath for [Attribute: att="child4"]: /root/child[4]/@att
+    [junit] Running XPath for [Attribute: unresolved="&"]: /root/child[4]/@unresolved
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[8]
+    [junit] Running XPath for [Element: <ns:child [Namespace: childns]/>]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]
+    [junit] Running XPath for [Attribute: att="childns 2"]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/@att
+    [junit] Running XPath for [Attribute: ns:att="childns 2"]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/@*[local-name() = 'att' and namespace-uri() = 'childns']
+    [junit] Running XPath for [Text: 
+    [junit] 	    ]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/text()[1]
+    [junit] Running XPath for [Comment: <!-- ns comment 2 -->]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/comment()
+    [junit] Running XPath for [Text: 
+    [junit] 		]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/text()[2]
+    [junit] Running XPath for [ProcessingInstruction: <?jdomtest processing instruction ?>]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/processing-instruction()
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/text()[3]
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[9]
+    [junit] Running XPath for [EntityRef: &unres;]: /root/node()[18]
+    [junit] Running XPath for [Text:  some unresolved content.
+    [junit] 	]: /root/text()[10]
+    [junit] Running XPath for [Element: <child/>]: /root/child[5]
+    [junit] Running XPath for [Attribute: att="child5"]: /root/child[5]/@att
+    [junit] Running XPath for [Text:  ]: /root/child[5]/text()[1]
+    [junit] Running XPath for [CDATA: some cdata text ]: /root/child[5]/text()[2]
+    [junit] Running XPath for [Text:  ]: /root/child[5]/text()[3]
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[11]
+    [junit] Running XPath for [Element: <child/>]: /root/child[6]
+    [junit] Running XPath for [Attribute: att="child6"]: /root/child[6]/@att
+    [junit] Running XPath for [Text: 
+    [junit] 	  ]: /root/child[6]/text()[1]
+    [junit] Running XPath for [Element: <leaf/>]: /root/child[6]/leaf
+    [junit] Running XPath for [Attribute: att="Leaf6"]: /root/child[6]/leaf/@att
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/child[6]/text()[2]
+    [junit] Running XPath for [Text: 
+    [junit] ]: /root/text()[12]
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.52 sec
+    [junit] Running org.jdom2.test.cases.xpath.TestJavaCompiled
+    [junit] Tests run: 99, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 sec
+    [junit] Running org.jdom2.test.cases.xpath.TestJaxenCompiled
+    [junit] Tests run: 100, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.062 sec
+    [junit] Running org.jdom2.test.cases.xpath.TestJaxenXPathHelper
+    [junit] Running XPath for [DocType: <!DOCTYPE root [
+    [junit]   <!ELEMENT root (#PCDATA)>
+    [junit]   <!ENTITY unres "Expand Me!">
+    [junit] ]>]: /node()[1]
+    [junit] Running XPath for [Element: <root/>]: /root
+    [junit] Running XPath for [Attribute: att1="val1"]: /root/@att1
+    [junit] Running XPath for [Attribute: att2="val2"]: /root/@att2
+    [junit] Running XPath for [Text: 
+    [junit]   text
+    [junit] 	]: /root/text()[1]
+    [junit] Running XPath for [Element: <child/>]: /root/child[1]
+    [junit] Running XPath for [Attribute: att="child1"]: /root/child[1]/@att
+    [junit] Running XPath for [Attribute: xml:space="preserve"]: /root/child[1]/@*[local-name() = 'space' and namespace-uri() = 'http://www.w3.org/XML/1998/namespace']
+    [junit] Running XPath for [Text:  hello Frodo Baggins! ]: /root/child[1]/text()
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[2]
+    [junit] Running XPath for [Element: <child/>]: /root/child[2]
+    [junit] Running XPath for [Attribute: att="child2"]: /root/child[2]/@att
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[3]
+    [junit] Running XPath for [ProcessingInstruction: <?jdomtest processing instruction ?>]: /root/processing-instruction()
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[4]
+    [junit] Running XPath for [Element: <child/>]: /root/child[3]
+    [junit] Running XPath for [Attribute: att="child3"]: /root/child[3]/@att
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[5]
+    [junit] Running XPath for [Element: <child [Namespace: childns]/>]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][1]
+    [junit] Running XPath for [Attribute: att="childns 1"]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][1]/@att
+    [junit] Running XPath for [Text: 
+    [junit] 	  ]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][1]/text()[1]
+    [junit] Running XPath for [Comment: <!-- ns comment 1 -->]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][1]/comment()
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][1]/text()[2]
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[6]
+    [junit] Running XPath for [Comment: <!-- comment  -->]: /root/comment()
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[7]
+    [junit] Running XPath for [Element: <child/>]: /root/child[4]
+    [junit] Running XPath for [Attribute: att="child4"]: /root/child[4]/@att
+    [junit] Running XPath for [Attribute: unresolved="&"]: /root/child[4]/@unresolved
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[8]
+    [junit] Running XPath for [Element: <ns:child [Namespace: childns]/>]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]
+    [junit] Running XPath for [Attribute: att="childns 2"]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/@att
+    [junit] Running XPath for [Attribute: ns:att="childns 2"]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/@*[local-name() = 'att' and namespace-uri() = 'childns']
+    [junit] Running XPath for [Text: 
+    [junit] 	    ]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/text()[1]
+    [junit] Running XPath for [Comment: <!-- ns comment 2 -->]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/comment()
+    [junit] Running XPath for [Text: 
+    [junit] 		]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/text()[2]
+    [junit] Running XPath for [ProcessingInstruction: <?jdomtest processing instruction ?>]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/processing-instruction()
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/*[local-name() = 'child' and namespace-uri() = 'childns'][2]/text()[3]
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[9]
+    [junit] Running XPath for [EntityRef: &unres;]: /root/node()[18]
+    [junit] Running XPath for [Text:  some unresolved content.
+    [junit] 	]: /root/text()[10]
+    [junit] Running XPath for [Element: <child/>]: /root/child[5]
+    [junit] Running XPath for [Attribute: att="child5"]: /root/child[5]/@att
+    [junit] Running XPath for [Text:  ]: /root/child[5]/text()[1]
+    [junit] Running XPath for [CDATA: some cdata text ]: /root/child[5]/text()[2]
+    [junit] Running XPath for [Text:  ]: /root/child[5]/text()[3]
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/text()[11]
+    [junit] Running XPath for [Element: <child/>]: /root/child[6]
+    [junit] Running XPath for [Attribute: att="child6"]: /root/child[6]/@att
+    [junit] Running XPath for [Text: 
+    [junit] 	  ]: /root/child[6]/text()[1]
+    [junit] Running XPath for [Element: <leaf/>]: /root/child[6]/leaf
+    [junit] Running XPath for [Attribute: att="Leaf6"]: /root/child[6]/leaf/@att
+    [junit] Running XPath for [Text: 
+    [junit] 	]: /root/child[6]/text()[2]
+    [junit] Running XPath for [Text: 
+    [junit] ]: /root/text()[12]
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 sec
+    [junit] Running org.jdom2.test.cases.xpath.TestLocalJaxenXPath
+    [junit] Tests run: 59, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.033 sec
+    [junit] Running org.jdom2.test.cases.xpath.TestXPathBuilder
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+    [junit] Running org.jdom2.test.cases.xpath.TestXPathFactory
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+    [junit] Running org.jdom2.test.cases.xpath.TestXalanCompiled
+    [junit] Tests run: 99, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec
+    [junit] Running org.jdom2.test.cases.xpath.TestXpath
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+[junitreport] Processing /home/plam/hacking/jdom/build/junit.report/TESTS-TestSuites.xml to /tmp/null764159224
+[junitreport] Loading stylesheet jar:file:/usr/share/ant/lib/ant-junit.jar!/org/apache/tools/ant/taskdefs/optional/junit/xsl/junit-frames.xsl
+[junitreport] Transform time: 695ms
+[junitreport] Deleting: /tmp/null764159224
+
+junit:
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
