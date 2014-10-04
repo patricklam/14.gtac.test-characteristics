@@ -1,0 +1,259 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] JGraphT - Parent
+[INFO] JGraphT - Core
+[INFO] JGraphT - Ext
+[INFO] JGraphT - Demo
+[INFO] JGraphT - Distributable Archives
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JGraphT - Parent 0.9.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ jgrapht ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JGraphT - Core 0.9.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ jgrapht-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ jgrapht-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/plam/hacking/gtac-projects/jgrapht/jgrapht-core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ jgrapht-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ jgrapht-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ jgrapht-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ jgrapht-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ jgrapht-core ---
+[INFO] Surefire report directory: /home/plam/hacking/gtac-projects/jgrapht/jgrapht-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jgrapht.experimental.GraphReaderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running org.jgrapht.experimental.equivalence.EquivalenceGroupCreatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.experimental.isomorphism.IsomorphismInspectorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.jgrapht.experimental.permutation.CompoundPermutationIterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec
+Running org.jgrapht.experimental.alg.ColoringTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jgrapht.experimental.dag.DirectedAcyclicGraphTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.493 sec
+Running org.jgrapht.util.PrefetchIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.util.FibonacciHeapTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.jgrapht.generate.RandomGraphGeneratorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.jgrapht.generate.GraphGeneratorTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running org.jgrapht.traverse.BreadthFirstIteratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.traverse.TopologicalOrderIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.traverse.IgnoreDirectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.traverse.ClosestFirstIteratorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.traverse.DepthFirstIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.BiconnectivityInspectorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.jgrapht.alg.KShortestPathCostTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.531 sec
+Running org.jgrapht.alg.VertexCoversTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.669 sec
+Running org.jgrapht.alg.EdmondsBlossomShrinkingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.EdmondsKarpMaximumFlowTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.KuhnMunkresMinimalWeightBipartitePerfectMatchingTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.EulerianCircuitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.BlockCutpointGraphTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.TransitiveClosureTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jgrapht.alg.KShortestPathKValuesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.33 sec
+Running org.jgrapht.alg.TarjanLowestCommonAncestorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.alg.ChromaticNumberTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.HamiltonianCycleTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.DijkstraShortestPathTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.MinimumSpanningTreeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.KSPExampleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.alg.cycle.UndirectedCycleBaseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.cycle.DirectedSimpleCyclesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.656 sec
+Running org.jgrapht.alg.NaiveLcaFinderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.util.UnionFindTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.alg.StoerWagnerMinimumCutTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.KSPDiscardsValidPathsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.MinSourceSinkCutTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.alg.NeighborIndexTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.BellmanFordShortestPathTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.CycleDetectorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.FloydWarshallShortestPathsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running org.jgrapht.alg.HopcroftKarpBipartiteMatchingTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.alg.BronKerboschCliqueFinderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.alg.ConnectivityInspectorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jgrapht.graph.SerializationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.jgrapht.graph.CloneTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.graph.SimpleGraphPathTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.graph.SubgraphTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.graph.AsUndirectedGraphTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.graph.GenericGraphsTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jgrapht.graph.EqualsAndHashCodeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jgrapht.graph.SimpleDirectedGraphTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.jgrapht.graph.AsUnweightedGraphTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.jgrapht.graph.DefaultDirectedGraphTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.jgrapht.graph.AsWeightedGraphTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.graph.ListenableGraphTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 198, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JGraphT - Ext 0.9.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ jgrapht-ext ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ jgrapht-ext ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/plam/hacking/gtac-projects/jgrapht/jgrapht-ext/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ jgrapht-ext ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ jgrapht-ext ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/plam/hacking/gtac-projects/jgrapht/jgrapht-ext/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ jgrapht-ext ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ jgrapht-ext ---
+[INFO] Surefire report directory: /home/plam/hacking/gtac-projects/jgrapht/jgrapht-ext/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jgrapht.ext.DOTExporterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.jgrapht.ext.GmlExporterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.jgrapht.ext.GraphMLExporterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running org.jgrapht.ext.MatrixExporterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.jgrapht.ext.JGraphXAdapterTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.479 sec
+
+Results :
+
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JGraphT - Demo 0.9.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ jgrapht-demo ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ jgrapht-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/plam/hacking/gtac-projects/jgrapht/jgrapht-demo/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ jgrapht-demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ jgrapht-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/plam/hacking/gtac-projects/jgrapht/jgrapht-demo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ jgrapht-demo ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ jgrapht-demo ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/plam/hacking/gtac-projects/jgrapht/jgrapht-demo/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JGraphT - Distributable Archives 0.9.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ jgrapht-dist ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] JGraphT - Parent .................................. SUCCESS [0.176s]
+[INFO] JGraphT - Core .................................... SUCCESS [5.006s]
+[INFO] JGraphT - Ext ..................................... SUCCESS [4.871s]
+[INFO] JGraphT - Demo .................................... SUCCESS [0.109s]
+[INFO] JGraphT - Distributable Archives .................. SUCCESS [0.006s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.599s
+[INFO] Finished at: Fri Oct 03 18:26:14 PDT 2014
+[INFO] Final Memory: 11M/239M
+[INFO] ------------------------------------------------------------------------
