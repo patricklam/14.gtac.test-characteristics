@@ -1,0 +1,11 @@
+name,testloc,totalloc
+apache-cc,46129,110394
+google-vis,13440,31416
+hsqldb,30481,322088
+jdom,25618,76734
+jfreechart,93404,317404
+jgrapht,12142,41801
+jmeter,20260,182293
+joda-time,67978,134758
+poi,86113,247799
+weka,26270,495198
