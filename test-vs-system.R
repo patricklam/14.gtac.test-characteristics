@@ -1,4 +1,3 @@
-require("HH")
 png(filename = "test-vs-system.png",width=1920,height=1920,pointsize=48)
 data<-read.csv("test-vs-system.csv")
 

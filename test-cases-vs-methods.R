@@ -1,5 +1,4 @@
-require("HH")
-png(filename = "test-cases-vs-methods.png",width=1920,height=1920,pointsize=48)
+png(filename = "test-cases-vs-methods.png",width=1920,height=1440,pointsize=48)
 data<-read.csv("test-cases-vs-methods.csv")
 
 pos_vector <- rep(3, length(data$name))
@@ -9,7 +8,7 @@ col_vector <- rep("black", length(data$name))
 col_vector[data$name %in% c("apache-cc")] <- "red"
 
 plot(data$methods,data$cases,
-     asp=1,xlim=c(-400,13500),ylim=c(-400,13500),
+     xlim=c(-400,6500),ylim=c(-400,13500),
      xaxp=c(0,12000,6),yaxp=c(0,12000,6),
      xlab="# Test methods",ylab="# Test cases",
      pch='+')
